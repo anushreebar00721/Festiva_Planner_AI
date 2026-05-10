@@ -77,12 +77,12 @@ Research Agent
 Retrieves relevant planning knowledge
 
 # Project Architecture
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6c6a2b77-ce1a-4308-abc7-5b41fd207d72" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6c6a2b77-ce1a-4308-abc7-5b41fd207d72" />
 
 
 
 # Project Structure
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b83a46ac-e4b7-44d7-8b88-e6c7a7bf47ef" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/b83a46ac-e4b7-44d7-8b88-e6c7a7bf47ef" />
 
 
 
