@@ -10,11 +10,11 @@ Festiva Planner AI helps users plan events such as:
 
 The system can:
 
-✅ Generate complete event plans
-✅ Predict budget allocation using ML
-✅ Retrieve planning knowledge using RAG
-✅ Use multiple AI agents for orchestration
-✅ Provide event timelines and recommendations
+- Generate complete event plans
+- Predict budget allocation using ML
+- Retrieve planning knowledge using RAG
+- Use multiple AI agents for orchestration
+- Provide event timelines and recommendations
 
 # Features
 1. AI Event Planner
@@ -52,7 +52,7 @@ Predicts:
 * Photography cost
 * Entertainment cost
 
-3. **RAG-Based Knowledge Assistant
+3. RAG-Based Knowledge Assistant
 Uses:
 
 * FAISS Vector Database
@@ -77,51 +77,13 @@ Research Agent
 Retrieves relevant planning knowledge
 
 # Project Architecture
-User Input
-   ↓
-Planner Agent
-   ↓
- ┌───────────────────┐
- │ Budget Agent (ML) │
- └───────────────────┘
-   ↓
- ┌───────────────────┐
- │ Research Agent    │
- │ (RAG + FAISS)     │
- └───────────────────┘
-   ↓
-Final Event Plan
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/6c6a2b77-ce1a-4308-abc7-5b41fd207d72" />
+
 
 
 # Project Structure
-festiva_planner_ai/
-│
-├── data/
-│   ├── event_data.csv
-│   └── event_guides/
-│
-├── models/
-│   ├── budget_model.pkl
-│   ├── event_encoder.pkl
-│   └── vector_store/
-│
-├── agents/
-│   ├── budget_agent.py
-│   ├── planner_agent.py
-│   └── research_agent.py
-│
-├── rag/
-│   ├── ingest.py
-│   └── retrieval.py
-│
-├── api/
-│   └── main.py
-│
-├── notebooks/
-│   └── festiva_planner_ai.ipynb
-│
-├── requirements.txt
-└── README.md
+<img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/b83a46ac-e4b7-44d7-8b88-e6c7a7bf47ef" />
+
 
 
 # Technologies Used
@@ -229,12 +191,12 @@ Different AI agents collaborate to complete planning tasks.
 
 This project demonstrates:
 
-✅ Machine Learning
-✅ NLP & RAG Systems
-✅ Vector Databases
-✅ Multi-Agent AI
-✅ FastAPI Backend Development
-✅ Real-world AI Architecture
+- Machine Learning
+- NLP & RAG Systems
+- Vector Databases
+- Multi-Agent AI
+- FastAPI Backend Development
+- Real-world AI Architecture
 
 # Use Cases
 * Smart wedding planning
